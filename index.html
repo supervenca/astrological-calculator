@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Horoscope</title>
+</head>
+<body>
+
+<div class="container">
+<div class="zodiac-sign wrapper">
+    <h2>Your zodiac sign</h2>
+    <h3>Enter your birthday</h3>
+    <div class="birthday">
+        <div class="birthday-day">
+            <p>Day</p>
+            <input type="number" id="day" min="1" max="31">
+        </div>
+        <div class="birthday-month">
+            <p>Month</p>
+            <input type="number" id="month" min="1" max="12">
+        </div>
+    </div>
+
+    <button type="button" id="zodiac-button">Your zodiac sign</button>
+</div>
+
+<div class="chinese-zodiac wrapper">
+    <h2>Your chinese zodiac sign</h2>
+    <div><input type="number" id="year" min="1930" max="2010"></div>
+    <button type="button" id="chinese-zodiac-button">Your chinese zodiac sign</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
