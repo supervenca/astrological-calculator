@@ -7,19 +7,19 @@ function zodiacSign() {
     if (day >= 20 && month == 1 || month == 2 && day <=19) {
         result = 'Aquarius';
     }
-    if (day >= 19 && month == 2 || month == 3 && day <=20) {
+    if (day >= 19 && day <=29 && month == 2 || month == 3 && day <=20) {
         result = 'Pisces';
     }
     if (day >= 21 && month == 3 || month == 4 && day <=19) {
         result = 'Aries';
     }
-    if (day >= 20 && month == 4 || month == 5 && day <=20) {
+    if (day >= 20 && day <=30 && month == 4 || month == 5 && day <=20) {
         result = 'Taurus';
     }
     if (day >= 21 && month == 5 || month == 6 && day <=20) {
         result = 'Gemini';
     }
-    if (day >= 21 && month == 6 || month == 7 && day <=22) {
+    if (day >= 21 && day <=30 && month == 6 || month == 7 && day <=22) {
         result = 'Cancer';
     }
     if (day >= 23 && month == 7 || month == 8 && day <=22) {
@@ -28,20 +28,30 @@ function zodiacSign() {
     if (day >= 23 && month == 8 || month == 9 && day <=22) {
         result = 'Virgo';
     }
-    if (day >= 23 && month == 9 || month == 10 && day <=22) {
+    if (day >= 23 && day <=30 && month == 9 || month == 10 && day <=22) {
         result = 'Libra';
     }
     if (day >= 23 && month == 10 || month == 11 && day <=21) {
         result = 'Scorpio';
     }
-    if (day >= 22 && month == 11 || month == 12 && day <=21) {
+    if (day >= 22 && day <=30 && month == 11 || month == 12 && day <=21) {
         result = 'Sagittarius';
     }
     if (day >= 22 && month == 12 || month == 1 && day <=19) {
         result = 'Capricorn';
     }
+    if (day >= 30 && month == 2) {
+        result = 'OOPS! Invalid date'
+    }
+    if (day >= 31 && month == 4 || month == 6 || month == 9 || month == 11) {
+        result = 'OOPS! Invalid date'
+    }
+    if (day > 31 || month > 12) {
+        result = 'OOPS! Invalid date'
+    }
 
     console.log(result);
+    document.querySelector('.zodiac-result').innerHTML = `<h1>${result}</h1>`;
 }
 
 function chineseSign() {
@@ -88,6 +98,7 @@ function chineseSign() {
     }
 
     console.log(result);
+    document.querySelector('.chinese-result').innerHTML = `<h1>${result}</h1>`;
 }
 
 const zodiacButton = document.querySelector('#zodiac-button');
