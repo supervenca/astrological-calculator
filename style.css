@@ -40,8 +40,13 @@ h1,h2,h3 {
 }
 
 div input {
+    width: 4rem;
+    height: 1.7rem;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+label {
+    text-align: center;
 }
 
 button {
