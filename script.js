@@ -144,7 +144,6 @@ function chineseSign() {
         chineseLogo = 'hidden';
     }
 
-
     document.querySelector('#chinese_name').innerHTML = `<h1>${result}</h1>`;
     document.querySelector('#chinese_logo').classList.add(`${chineseLogo}`);
 }

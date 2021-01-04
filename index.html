@@ -14,11 +14,11 @@
     <h3>Enter your birthday</h3>
     <div class="birthday">
         <div class="birthday-day">
-            <p>Day</p>
+            <label for="day">Day</label><br>
             <input type="number" id="day" min="1" max="31" required>
         </div>
         <div class="birthday-month">
-            <p>Month</p>
+            <label for="month">Month</label><br>
             <input type="number" id="month" min="1" max="12" required>
         </div>
     </div>
@@ -37,7 +37,10 @@
 <div class="chinese-zodiac wrapper">
     <h1>Your chinese zodiac sign</h1>
     <h3>Enter your birth year</h3>
-    <div><input type="number" id="year" min="1930" max="2021" required></div>
+    <div>
+        <label for="year"></label><br>
+        <input type="number" id="year" min="1930" max="2021" required>
+    </div>
     <button type="button" id="chinese-zodiac-button">Your chinese zodiac sign</button>
 
     <div class="chinese-result">
@@ -49,9 +52,6 @@
 </div>
 </div>
 
-<div class="copyright">
-    Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
-</div>
 
 <script src="script.js"></script>
 </body>

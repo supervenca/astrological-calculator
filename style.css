@@ -4,8 +4,6 @@ body {
     background: #606c88;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 
 a {
@@ -35,6 +33,7 @@ h1,h2,h3 {
 .birthday {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .birthday-day {
     margin-right: 0.5rem;
@@ -70,7 +69,6 @@ button:hover {
 }
 
 /* Zodiac sign logos*/
-
 .aquarius-logo {
     background: url("img/zodiac/aquarius-1.png") center / cover no-repeat;
     width: 150px;
@@ -101,7 +99,7 @@ button:hover {
     width: 150px;
     height: 150px;
 }
-libra-logo {
+.libra-logo {
     background: url("img/zodiac/libra-1.png") center / cover no-repeat;
     width: 150px;
     height: 150px;
@@ -199,14 +197,7 @@ libra-logo {
     display: none;
 }
 
-.copyright {
-    display: block;
-    position: absolute;
-    bottom:1px;
-    font-size: 12px;
-    width: 100%;
-    text-align: center;
-}
+
 
 
 /* BREAKPOINTS */
