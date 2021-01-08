@@ -28,6 +28,7 @@ h1,h2,h3 {
     flex-direction: column;
     align-items: center;
     max-width: 40%;
+    margin-bottom: 20px;
 }
 
 .birthday {
@@ -208,7 +209,9 @@ button:hover {
 /* BREAKPOINTS */
 
 @media all and (min-width: 770px) {
-
+    .container {
+        margin-top: 5%;
+    }
 }
 @media all and (max-width: 769px) {
     .container {
@@ -217,5 +220,9 @@ button:hover {
     }
     .wrapper {
         max-width: 100%;
+    }
+    div input {
+        width: 5rem;
+        height: 2rem;
     }
 }

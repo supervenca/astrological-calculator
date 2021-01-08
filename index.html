@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Your Horoscope</title>
 </head>
 <body>
@@ -12,16 +19,16 @@
 <div class="zodiac-sign wrapper">
     <h1>Your zodiac sign</h1>
     <h3>Enter your birthday</h3>
-    <div class="birthday">
-        <div class="birthday-day">
-            <label for="day">Day</label><br>
-            <input type="number" id="day" min="1" max="31" required>
+        <div class="birthday">
+            <div class="birthday-day">
+                <label for="day">Day</label><br>
+                <input type="number" id="day" min="1" max="31" required>
+            </div>
+            <div class="birthday-month">
+                <label for="month">Month</label><br>
+                <input type="number" id="month" min="1" max="12" required>
+            </div>
         </div>
-        <div class="birthday-month">
-            <label for="month">Month</label><br>
-            <input type="number" id="month" min="1" max="12" required>
-        </div>
-    </div>
 
     <button type="button" id="zodiac-button">Your zodiac sign</button>
 
@@ -35,13 +42,13 @@
 
 
 <div class="chinese-zodiac wrapper">
-    <h1>Your chinese zodiac sign</h1>
+    <h1>Your chinese sign</h1>
     <h3>Enter your birth year</h3>
     <div>
         <label for="year"></label><br>
         <input type="number" id="year" min="1930" max="2021" required>
     </div>
-    <button type="button" id="chinese-zodiac-button">Your chinese zodiac sign</button>
+    <button type="button" id="chinese-zodiac-button">Your chinese sign</button>
 
     <div class="chinese-result">
         <div id="chinese_name"></div>

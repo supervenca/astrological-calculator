@@ -78,7 +78,10 @@ function zodiacSign() {
         result = 'OOPS! Invalid date';
         signLogo = 'hidden';
     }
-
+    if (!day || !month) {
+        result = 'OOPS! Invalid date';
+        signLogo = 'hidden';
+    }
 
     document.querySelector('#sign_name').innerHTML = `<h1>${result}</h1>`;
     document.querySelector('#sign_logo').classList.add(`${signLogo}`);
