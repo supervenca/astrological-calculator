@@ -74,127 +74,7 @@ button:hover {
     justify-content: space-between;
 }
 
-/* Zodiac sign logos*/
-.aquarius-logo {
-    background: url("img/zodiac/aquarius-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.aries-logo {
-    background: url("img/zodiac/aries-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.cancer-logo {
-    background: url("img/zodiac/cancer-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.capricorn-logo {
-    background: url("img/zodiac/capricornus-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.gemini-logo {
-    background: url("img/zodiac/gemini-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.leo-logo {
-    background: url("img/zodiac/leo-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.libra-logo {
-    background: url("img/zodiac/libra-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.pisces-logo {
-    background: url("img/zodiac/pisces-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.sagittarius-logo {
-    background: url("img/zodiac/sagittarius-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.scorpio-logo {
-    background: url("img/zodiac/scorpio-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.taurus-logo {
-    background: url("img/zodiac/taurus-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.virgo-logo {
-    background: url("img/zodiac/virgo-1.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-
-/* Chinese zodiac sign logos*/
-
-.rat-logo {
-    background: url("img/chinese/mouse.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.dog-logo {
-    background: url("img/chinese/dog.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.dragon-logo {
-    background: url("img/chinese/dragon.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.sheep-logo {
-    background: url("img/chinese/goat.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.horse-logo {
-    background: url("img/chinese/horse.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.monkey-logo {
-    background: url("img/chinese/monkey.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.ox-logo {
-    background: url("img/chinese/ox.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.pig-logo {
-    background: url("img/chinese/pig.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.rabbit-logo {
-    background: url("img/chinese/rabbit.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.rooster-logo {
-    background: url("img/chinese/rooster.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.snake-logo {
-    background: url("img/chinese/snake.png") center / cover no-repeat;
-    width: 150px;
-    height: 150px;
-}
-.tiger-logo {
-    background: url("img/chinese/tiger.png") center / cover no-repeat;
+.sign_logo {
     width: 150px;
     height: 150px;
 }
@@ -202,8 +82,6 @@ button:hover {
 .hidden {
     display: none;
 }
-
-
 
 
 /* BREAKPOINTS */

@@ -11,14 +11,14 @@
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <title>Your Horoscope</title>
+    <title>Horoscope</title>
 </head>
 <body>
 
 <div class="container">
-<div class="zodiac-sign wrapper">
-    <h1>Your zodiac sign</h1>
-    <h3>Enter your birthday</h3>
+    <div class="zodiac-sign wrapper">
+        <h1>Your zodiac sign</h1>
+        <h3>Enter your birthday</h3>
         <div class="birthday">
             <div class="birthday-day">
                 <label for="day">Day</label><br>
@@ -34,7 +34,9 @@
 
     <div class="zodiac-result">
         <div id="sign_name"></div>
-        <div id="sign_logo"></div>
+        <div id="sign_logo">
+            <img id="sign_logo-img">
+        </div>
         <div id="sign_description"></div>
     </div>
 
@@ -52,13 +54,14 @@
 
     <div class="chinese-result">
         <div id="chinese_name"></div>
-        <div id="chinese_logo"></div>
+        <div id="chinese_logo">
+            <img id="chinese_logo-img">
+        </div>
         <div id="chinese_description"></div>
     </div>
 
 </div>
 </div>
-
 
 <script src="script.js"></script>
 </body>
